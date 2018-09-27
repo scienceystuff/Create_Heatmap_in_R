@@ -44,4 +44,5 @@ p + geom_tile() + scale_x_discrete() + scale_fill_gradientn(colors=c("blue", "da
 
 # this will save the plot
 ggsave("myplot.pdf", height=8, width=8, units="in")
+# to save the plot, ggsave() will save the last viewed plot as a pdf, etc. based on the file extension in the name.  Be warned that it will overwrite existing files without warning!
 # or you can take a screenshot in R-Studio using Command-Control-4
