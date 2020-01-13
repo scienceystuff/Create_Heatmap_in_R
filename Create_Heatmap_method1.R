@@ -24,6 +24,13 @@
 # A,3,Control
 # B,2,Control
 
+
+# t <- data.frame(c('A', 'B', 'A', 'B'))
+# t[,2] <- c(1,2,3,2)
+# t[,3] <- c('Treatment', 'Treatment', 'Control', 'Control')
+# colnames(t) <- c('Gene', 'Value', 'Condition')
+
+
 # there are several options for a color pallette:
 colors <- colorRampPalette(c("lightblue", "green", "red"))(3)
 # Color Brewer can be used as well, although it is a bit complex
